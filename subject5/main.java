@@ -15,19 +15,15 @@ public class Main {
         System.out.print("학교를 입력하세요: ");
         String uni = scanner.nextLine();
         
-        ossprac2
         System.out.print("학년을 입력하세요: ");
         String year = scanner.nextLine();
         
-        main
         System.out.println("\n<출력>");
         System.out.println("이름: " + name);
         System.out.println("학번 : " + studentId);
         System.out.println("학과: " + major);
         System.out.println("학교: " + uni);
-        ossprac2
         System.out.println("학년: " + year);
-        main
 
         scanner.close();
     }
