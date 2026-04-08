@@ -24,10 +24,9 @@ public class Main {
         System.out.println("이름: " + name);
         System.out.println("학번 : " + studentId);
         System.out.println("학과: " + major);
+        System.out.println("학교: " + uni);
         ossprac2
         System.out.println("학년: " + year);
-
-        System.out.println("학교: " + uni);
         main
 
         scanner.close();
