@@ -13,10 +13,14 @@ public class Main {
         System.out.print("학과를 입력하세요: ");
         String major = scanner.nextLine();
 
+        System.out.print("학교를 입력하세요: ");
+        String uni = scanner.nextLine();
+
         System.out.println("\n<출력>");
         System.out.println("이름: " + name);
         System.out.println("학번 : " + studentId);
         System.out.println("학과: " + major);
+        System.out.println("학교: " + uni);
 
         scanner.close();
     }
